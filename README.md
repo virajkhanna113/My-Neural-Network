@@ -57,6 +57,7 @@ We will also define an input_shape which is the dimensions of our data. In this 
 In academic papers, models are often represented like the picture below. In practice, modern neural networks are so large, it's impractical to graph them in this way. The below is a fraction of our entire model. There are 10 neurons on the bottom representing each of our ten classes, and 28 input nodes on the top, representing a row of our pixels. In reality, the top layer is 28 times bigger!
 
 Each circle represents a neuron or an input, and each line represents a weight.
+
 ![image](https://github.com/user-attachments/assets/1ca79364-6f65-4c25-b1c1-0a45d161661b)
 
 # Initiate Training
