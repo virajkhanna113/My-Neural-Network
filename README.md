@@ -1,7 +1,9 @@
 # Neural Network
 # Data
 Neural networks attempt to copy the human learning technique, Trial and Error. To do this, we will create something like a set of digital flashcards. Our artificial brains will attempt to guess what kind of clothing we are showing it with a flashcard, then we will give it the answer, helping the computer learn from its successes and mistakes.
+
 ![image](https://github.com/user-attachments/assets/8bd54e7e-5a32-4682-9211-a3cad3e2fd78)
+
 The study data is often called the training dataset and the quiz data is often called the validation dataset. As Fashion MNIST is a popular dataset, it is already included with the TensorFlow library. Let's load it into our coding environment and take a look at it.
 
 Here is the table for reference:
@@ -30,6 +32,7 @@ Evaluating the model
 
 # Defining the architecture
 ![image](https://github.com/user-attachments/assets/d18f1969-67a3-43fc-b937-84548e730833)
+
 Biological neurons transmit information with a mechanism similar to Morse Code. It receives electrical signals through the dendrites, and under the right conditions, sends an electrical impulse down the axon and out through the terminals.
 
 It is theorized the sequence and timing of these impulses play a large part of how information travels through the brain. Most artificial neural networks have yet to capture this timing aspect of biological neurons, and instead emulate the phenomenon with simpler mathematical formulas.
